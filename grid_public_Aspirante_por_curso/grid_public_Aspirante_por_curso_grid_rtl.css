@@ -1,0 +1,8 @@
+.css_ar_descripcion_label, .css_ar_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_ar_descripcion_grid_line, .css_ar_descripcion_grid_line:hover {vertical-align: top;text-align: right;}
+.css_c_nombre_curso_label, .css_c_nombre_curso_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_c_nombre_curso_grid_line, .css_c_nombre_curso_grid_line:hover {vertical-align: top;text-align: center;}
+.css_a_nombre_label, .css_a_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_a_nombre_grid_line, .css_a_nombre_grid_line:hover {vertical-align: top;text-align: right;}
+.css_i_fecha_inscripcion_label, .css_i_fecha_inscripcion_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_i_fecha_inscripcion_grid_line, .css_i_fecha_inscripcion_grid_line:hover {vertical-align: top;text-align: center;}
