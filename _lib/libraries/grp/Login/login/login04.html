@@ -1,0 +1,131 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!--SC_PAGE_CHARSET-->
+		<title>SISTEMA DE COMPLEMENTARIAS</title>
+		<link rel="stylesheet" href="{SC_LIB_CURRENT}login/css/login04.css">
+		<link rel="stylesheet" type="text/css" href="{SC_LIB_CURRENT}libs/bootstrap/css/bootstrap.min.css" />   
+		<link rel="stylesheet" type="text/css" href="{SC_LIB_CURRENT}libs/css/styles.css">
+		<style>
+			span.sc-ui-pwd-toggle-icon {
+				position: relative;
+				display: inline-block;
+				cursor: pointer;
+				right: 0.5rem;
+				z-index: 2;
+				float: right;
+				bottom: 4rem;
+			}
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script type="text/javascript">
+
+			function scHideUserField(fieldName)
+			{
+				if(fieldName == 'new_user')
+				{
+					$('#id-new_user-1').hide();
+				}
+
+				else if(fieldName == 'retrieve_pswd')
+				{
+					$('#id-retrieve_pswd-1').hide();					
+				}
+
+				else if(fieldName == 'remember_me')
+				{
+					$('#id_sc_field_remember_me_1').hide();	
+					$('#txtremember').hide();
+				}
+			}
+
+
+			function scShowUserField(fieldName)
+			{
+				if(fieldName == 'new_user')
+				{
+					$('#id-new_user-1').show();
+				}
+
+				else if(fieldName == 'retrieve_pswd')
+				{
+					$('#id-retrieve_pswd-1').show();
+				}
+
+				else if(fieldName == 'remember_me')
+				{
+					$('#id_sc_field_remember_me_1').show();
+					$('#txtremember').show();
+				}	
+			}
+
+		</script>        
+
+	</head>
+	<body class="page-sidebar page-background">
+		<div class="page">
+			<div class="container">
+				<div class="card card-container">
+					<img id="profile-img" class="profile-img-card" src="{SC_LIB_CURRENT}login/img/logo.png" />
+					<!--                   <p id="profile-name" class="profile-name-card"></p> -->
+					<div class="welcome-line-2"><strong>SISTEMA DE COMPLEMENTARIAS</strong></div><br>
+					<form class="form-signin" {SC_FORM_ATTR}>
+						<!--SC_FORM_HIDDEN-->
+						<!--                       <span id="reauth-email" class="reauth-email"></span>
+<input type="text" id="Usuario" class="form-control {SC_FIELD_CLASS}" {SC_FIELD_INFO_login} placeholder="Usuario" required autofocus> -->
+						<div class="form-inp">
+							<input type="text" name="login" id="login_field" class="{SC_FIELD_CLASS}" placeholder="Usuario" {SC_FIELD_INFO_login}>
+						</div>
+						<!--SC_FIELD_INI_pswd-->
+						<!--                       <input type="password" id="Contraseña" class="form-control {SC_FIELD_CLASS}" {SC_FIELD_INFO_pswd} placeholder="Contraseña" required> -->
+						<div class="form-inp">
+							<input type="password" name="pswd" id="pswd_field" class="{SC_FIELD_CLASS}" placeholder="Contraseña" {SC_FIELD_INFO_pswd}>
+						</div>
+						<!--SC_FIELD_END_pswd-->
+						<!--SC_REQUIRED_MSG-->
+						<!--SC_CAPTCHA-->
+						<input class="btn btn-lg btn-primary btn-block btn-signin" type="button" value="Ingresar" {SC_FORM_SUBMIT_CALL} /><br/>
+						{SC_FIELD_INFO_new_user}
+						{SC_FIELD_INFO_retrieve_pswd}
+
+						<span id="txtremember">{SC_FIELD_INFO_remember_me}</span>
+					</form><!-- /form -->
+				</div><!-- /card-container -->
+			</div><!-- /container -->
+
+			<div class="alert-message negative">
+				<span class="message"></span>
+				<span class="close">&times;</span>
+			</div>
+
+			<!--SC_JS_LIB-->
+			<script type="text/javascript" src="{SC_LIB_CURRENT}libs/js/error.js"></script>
+			</body>
+		</html>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			const toggle = document.getElementById("id_pwd_fa_pswd");
+			const passwordField = document.getElementById("pswd_field");
+
+			if (toggle && passwordField) {
+				toggle.addEventListener("click", function() {
+					// alternar tipo de input
+					const isPassword = passwordField.getAttribute("type") === "password";
+					passwordField.setAttribute("type", isPassword ? "text" : "password");
+
+					// opcional: cambiar ícono visual si usas Font Awesome
+					if (this.classList.contains("fa-eye")) {
+						this.classList.remove("fa-eye");
+						this.classList.add("fa-eye-slash");
+					} else {
+						this.classList.remove("fa-eye-slash");
+						this.classList.add("fa-eye");
+					}
+				});
+			}
+		});
+	</script>

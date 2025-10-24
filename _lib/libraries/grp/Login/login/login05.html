@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--SC_PAGE_CHARSET-->
+    <title>SISTEMA DE COMPLEMENTARIAS</title>
+
+    <!-- Scriptcase tags obligatorios -->
+    <!--SC_JS_LIB-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome para el ojito -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <style>
+      body {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .form {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        max-width: 340px;
+        padding: 25px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 25px #e5ebe8, 0px 0px 30px #313332;
+        outline: 1px solid #e8edea;
+        border-radius: 30px;
+        position: relative;
+        z-index: 1;
+      }
+      .welcome-line-2 {
+        color: #1f7d23 !important;
+        font-size: 1rem;
+        text-align: center;
+      }
+
+      .form-inp {
+        width: 100%;
+        margin-bottom: 1rem;
+        position: relative;
+      }
+
+      .form-inp input {
+        width: 100%;
+        padding: 0.7rem 1rem;
+        background: transparent;
+        border: 1px solid #1f7d23;
+        border-radius: 8px;
+        font-size: 1rem;
+        color: #1f7d23;
+      }
+
+      .form-inp input::placeholder {
+        color: #ccc;
+      }
+
+      .form-inp input:focus {
+        outline: none;
+        border-color: #00ff7f;
+      }
+
+      /* Estilos del ojito */
+      .toggle-password {
+        position: absolute;
+        top: 50%;
+        right: 12px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        color: #999;
+        font-size: 1.1rem;
+        transition: color 0.3s;
+      }
+
+      .toggle-password:hover {
+        color: #1f7d23;
+      }
+
+      .submit-button-cvr {
+        margin-top: 1.5rem;
+        width: 100%;
+      }
+
+      .submit-button {
+        width: 100%;
+        color: #1f7d23;
+        background-color: transparent;
+        font-weight: 600;
+        font-size: 1rem;
+        padding: 0.75rem 1rem;
+        border: 1px solid #08a556;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+      }
+
+      .submit-button:hover {
+        background-color: #05994e;
+        color: #ffffff;
+      }
+
+      .extra-links {
+        text-align: center;
+        margin-top: 1rem;
+      }
+
+      .extra-links a {
+        display: block;
+        margin-top: 0.5rem;
+        color: #1f7d23;
+        font-size: 0.9rem;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .logo {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: contain;
+        background-color: #fff;
+        padding: 10px;
+        display: block;
+        margin: 0 auto 20px;
+      }
+		
+	a {
+    	color: #1f7d23 !important;
+	}
+		
+	label {
+    	color: #1f7d23 !important;
+	}
+		
+
+
+    </style>
+	  
+	  
+  </head>
+
+  <body>
+    <div class="form">
+      <img
+        src="{SC_LIB_CURRENT}login/img/logo.png"
+        alt="Logo SENA"
+        class="logo"
+      />
+      <div class="welcome-line-2">
+        <strong>SISTEMA DE COMPLEMENTARIAS</strong>
+      </div>
+      <br/>
+
+      <!-- Formulario Scriptcase -->
+      <form {SC_FORM_ATTR} id="sc-custom-login" sc-custom-login>
+        <!--SC_FORM_HIDDEN-->
+
+        <div class="form-inp">
+          <input
+            type="text"
+            name="login"
+            id="login_field"
+            class="{SC_FIELD_CLASS}"
+            placeholder="Usuario"
+            {SC_FIELD_INFO_login}
+          />
+        </div>
+
+        <div class="form-inp">
+          <input
+            type="password"
+            name="pswd"
+            id="pswd_field"
+            class="{SC_FIELD_CLASS}"
+            placeholder="Contraseña"
+            {SC_FIELD_INFO_pswd} 
+				 />
+					
+          <i id="id_pwd_fa_pswd" class="fa-solid fa-eye-slash toggle-password"></i>
+        </div>
+
+        <div class="submit-button-cvr">
+          <input
+            type="button"
+            id="btn_sc_login"
+            class="submit-button"
+            value="Ingresar"
+            {SC_FORM_SUBMIT_CALL}
+          />
+			
+        </div>
+
+        <div class="extra-links">
+          {SC_FIELD_INFO_retrieve_pswd}
+          {SC_FIELD_INFO_new_user}
+          <br />
+          {SC_FIELD_INFO_remember_me}
+        </div>
+      </form>
+    </div>
+	
+	<div style="position: relative;">
+  	<form method="post" style="
+    position: absolute;
+    top: -20px;
+    right: -200px;
+    z-index: 1000;
+  ">
+    <button type="submit" name="btn_salir" style="
+      background-color: #1f7d23 ;
+      color: white;
+      border: none;
+      padding: 12px 22px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+	  right: 50px;
+	  position: fixed;	
+	  top: 50px;
+      transition: all 0.3s ease;
+      " 
+	onmouseover="this.style.backgroundColor='#1f7d23';"
+    onmouseout="this.style.backgroundColor=' rgb(37 161 43)';">
+      <strong>Salir</strong>
+    </button>
+  </form>
+</div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var loginBox = document.querySelector('.scLoginBlock, .scFormPage, .scLoginBox');
+  var btn = document.querySelector('button[onclick*=\"app_login.php\"]');
+  if (loginBox && btn) {
+    loginBox.style.position = 'relative';
+    loginBox.appendChild(btn);
+  }
+});
+</script>
+
+	 
+	 <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const toggle = document.getElementById("id_pwd_fa_pswd");
+        const passwordField = document.getElementById("pswd_field");
+
+        if (toggle && passwordField) {
+          // El ojito inicia cerrado
+          toggle.classList.remove("fa-eye");
+          toggle.classList.add("fa-eye-slash");
+
+          toggle.addEventListener("click", function () {
+            const isPassword = passwordField.getAttribute("type") === "password";
+
+            // Alternar tipo del input
+            passwordField.setAttribute("type", isPassword ? "text" : "password");
+
+            // Cambiar ícono según estado
+            if (isPassword) {
+              this.classList.remove("fa-eye-slash");
+              this.classList.add("fa-eye");
+              this.style.color = "#1f7d23"; // color verde al abrir
+            } else {
+              this.classList.remove("fa-eye");
+              this.classList.add("fa-eye-slash");
+              this.style.color = "#999"; // color gris al cerrar
+            }
+          });
+        }
+      });
+    </script>
+
+    <script
+      type="text/javascript"
+      src="{SC_LIB_CURRENT}libs/js/error.js"
+    ></script>
+  </body>
+</html>
