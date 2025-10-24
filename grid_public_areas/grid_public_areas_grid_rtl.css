@@ -1,0 +1,8 @@
+.css_descripcion_label, .css_descripcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_descripcion_grid_line, .css_descripcion_grid_line:hover {vertical-align: top;text-align: right;}
+.css_created_at_label, .css_created_at_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_created_at_grid_line, .css_created_at_grid_line:hover {vertical-align: top;text-align: right;}
+.css_updated_at_label, .css_updated_at_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_updated_at_grid_line, .css_updated_at_grid_line:hover {vertical-align: top;text-align: right;}
+.css_id_label, .css_id_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_id_grid_line, .css_id_grid_line:hover {vertical-align: top;text-align: right;}
