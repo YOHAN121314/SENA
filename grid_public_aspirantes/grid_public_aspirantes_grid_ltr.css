@@ -1,0 +1,22 @@
+.css_nombre_label, .css_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nombre_grid_line, .css_nombre_grid_line:hover {vertical-align: top;text-align: left;}
+.css_apellido_label, .css_apellido_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_apellido_grid_line, .css_apellido_grid_line:hover {vertical-align: top;text-align: left;}
+.css_documento_identidad_label, .css_documento_identidad_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_documento_identidad_grid_line, .css_documento_identidad_grid_line:hover {vertical-align: top;text-align: center;}
+.css_email_label, .css_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_email_grid_line, .css_email_grid_line:hover {vertical-align: top;text-align: left;}
+.css_telefono_label, .css_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_telefono_grid_line, .css_telefono_grid_line:hover {vertical-align: top;text-align: left;}
+.css_estado_label, .css_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_estado_grid_line, .css_estado_grid_line:hover {vertical-align: top;text-align: left;}
+.css_fecha_nacimiento_label, .css_fecha_nacimiento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_fecha_nacimiento_grid_line, .css_fecha_nacimiento_grid_line:hover {vertical-align: top;text-align: left;}
+.css_direccion_label, .css_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_direccion_grid_line, .css_direccion_grid_line:hover {vertical-align: top;text-align: left;}
+.css_created_at_label, .css_created_at_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_created_at_grid_line, .css_created_at_grid_line:hover {vertical-align: top;text-align: left;}
+.css_updated_at_label, .css_updated_at_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_updated_at_grid_line, .css_updated_at_grid_line:hover {vertical-align: top;text-align: left;}
+.css_id_label, .css_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_id_grid_line, .css_id_grid_line:hover {vertical-align: top;text-align: right;}
