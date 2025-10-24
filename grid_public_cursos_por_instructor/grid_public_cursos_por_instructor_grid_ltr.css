@@ -1,0 +1,8 @@
+.css_cur_nombre_curso_label, .css_cur_nombre_curso_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cur_nombre_curso_grid_line, .css_cur_nombre_curso_grid_line:hover {vertical-align: top;text-align: left;}
+.css_cpi_id_label, .css_cpi_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cpi_id_grid_line, .css_cpi_id_grid_line:hover {vertical-align: top;text-align: right;}
+.css_instructor_label, .css_instructor_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_instructor_grid_line, .css_instructor_grid_line:hover {vertical-align: top;text-align: left;}
+.css_cpi_fecha_asignacion_label, .css_cpi_fecha_asignacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cpi_fecha_asignacion_grid_line, .css_cpi_fecha_asignacion_grid_line:hover {vertical-align: top;text-align: left;}
