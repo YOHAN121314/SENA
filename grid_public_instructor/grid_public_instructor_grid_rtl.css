@@ -1,0 +1,24 @@
+.css_i_nombre_label, .css_i_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_i_nombre_grid_line, .css_i_nombre_grid_line:hover {vertical-align: top;text-align: right;}
+.css_i_apellido_label, .css_i_apellido_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_i_apellido_grid_line, .css_i_apellido_grid_line:hover {vertical-align: top;text-align: right;}
+.css_i_numero_documento_label, .css_i_numero_documento_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_i_numero_documento_grid_line, .css_i_numero_documento_grid_line:hover {vertical-align: top;text-align: center;}
+.css_especialidad_label, .css_especialidad_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_especialidad_grid_line, .css_especialidad_grid_line:hover {vertical-align: top;text-align: right;}
+.css_i_titulo_academico_label, .css_i_titulo_academico_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_i_titulo_academico_grid_line, .css_i_titulo_academico_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sc_field_0_label, .css_sc_field_0_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sc_field_0_grid_line, .css_sc_field_0_grid_line:hover {vertical-align: top;text-align: center;}
+.css_i_email_label, .css_i_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_i_email_grid_line, .css_i_email_grid_line:hover {vertical-align: top;text-align: right;}
+.css_estado_label, .css_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_estado_grid_line, .css_estado_grid_line:hover {vertical-align: top;text-align: right;}
+.css_i_fecha_contratacion_label, .css_i_fecha_contratacion_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_i_fecha_contratacion_grid_line, .css_i_fecha_contratacion_grid_line:hover {vertical-align: top;text-align: center;}
+.css_tipo_contrato_label, .css_tipo_contrato_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tipo_contrato_grid_line, .css_tipo_contrato_grid_line:hover {vertical-align: top;text-align: right;}
+.css_i_telefono_label, .css_i_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_i_telefono_grid_line, .css_i_telefono_grid_line:hover {vertical-align: top;text-align: right;}
+.css_i_created_at_label, .css_i_created_at_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_i_created_at_grid_line, .css_i_created_at_grid_line:hover {vertical-align: top;text-align: center;}
