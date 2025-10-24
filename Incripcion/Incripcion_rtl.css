@@ -1,0 +1,30 @@
+.css_id_curso_label { }
+.css_id_curso_line {text-align:left;}
+.css_id_curso_obj {text-align:left;}
+.css_fecha_inscripcion_label { }
+.css_fecha_inscripcion_line { }
+.css_fecha_inscripcion_obj { }
+.css_observaciones_label { }
+.css_observaciones_line { }
+.css_observaciones_obj { }
+.css_nombres_label { }
+.css_nombres_line { }
+.css_nombres_obj { }
+.css_apellidos_label { }
+.css_apellidos_line { }
+.css_apellidos_obj { }
+.css_email_label { }
+.css_email_line { }
+.css_email_obj { }
+.css_telefono_label { }
+.css_telefono_line { }
+.css_telefono_obj {text-align:right;}
+.css_fecha_nacimiento_label { }
+.css_fecha_nacimiento_line { }
+.css_fecha_nacimiento_obj { }
+.css_direccion_label { }
+.css_direccion_line { }
+.css_direccion_obj { }
+.css_numero_documento_label { }
+.css_numero_documento_line { }
+.css_numero_documento_obj {text-align:right;}
