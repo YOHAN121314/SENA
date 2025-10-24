@@ -1,0 +1,24 @@
+.css_c_nombre_curso_label, .css_c_nombre_curso_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_c_nombre_curso_grid_line, .css_c_nombre_curso_grid_line:hover {vertical-align: top;text-align: left;}
+.css_modalidad_label, .css_modalidad_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_modalidad_grid_line, .css_modalidad_grid_line:hover {vertical-align: top;text-align: left;}
+.css_c_intensidad_horas_label, .css_c_intensidad_horas_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_c_intensidad_horas_grid_line, .css_c_intensidad_horas_grid_line:hover {vertical-align: top;text-align: center;}
+.css_c_cupo_maximo_label, .css_c_cupo_maximo_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_c_cupo_maximo_grid_line, .css_c_cupo_maximo_grid_line:hover {vertical-align: top;text-align: center;}
+.css_cupos_disponibles_label, .css_cupos_disponibles_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_cupos_disponibles_grid_line, .css_cupos_disponibles_grid_line:hover {vertical-align: top;text-align: center;}
+.css_c_horario_label, .css_c_horario_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_c_horario_grid_line, .css_c_horario_grid_line:hover {vertical-align: top;text-align: center;}
+.css_nivel_label, .css_nivel_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nivel_grid_line, .css_nivel_grid_line:hover {vertical-align: top;text-align: center;}
+.css_estado_label, .css_estado_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_estado_grid_line, .css_estado_grid_line:hover {vertical-align: top;text-align: center;}
+.css_sc_field_0_label, .css_sc_field_0_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sc_field_0_grid_line, .css_sc_field_0_grid_line:hover {vertical-align: top;text-align: center;}
+.css_c_fecha_inicio_label, .css_c_fecha_inicio_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_c_fecha_inicio_grid_line, .css_c_fecha_inicio_grid_line:hover {vertical-align: top;text-align: center;}
+.css_c_fecha_fin_label, .css_c_fecha_fin_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_c_fecha_fin_grid_line, .css_c_fecha_fin_grid_line:hover {vertical-align: top;text-align: center;}
+.css_c_created_at_label, .css_c_created_at_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_c_created_at_grid_line, .css_c_created_at_grid_line:hover {vertical-align: top;text-align: center;}
